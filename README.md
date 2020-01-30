@@ -6,7 +6,7 @@ A template engine makes designing HTML pages easier by using static template fil
 
 Basic injection  
 
-${7*7}
+#${7*7} 
 ${{7*7}}
 %7B%7B4*4%7D%7D
 nxmve$%7B30*30%7Dac2nj 
